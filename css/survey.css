@@ -1,0 +1,55 @@
+/* Survey page styles */
+
+.photo{
+  width: 60%;
+  padding: 10px;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+}
+
+fieldset {
+  border: none;
+}
+
+label[for="albums"],
+label[for="albums2"] {
+  display: block;
+  height: 25px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.container{
+  text-align: center;
+}
+.newsletter{
+  text-align: right;
+
+}
+
+#hint {
+  position: fixed;
+  margin-left: 300000px;
+  opacity: 0;
+}
+
+.newsletter-container {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+button[type="submit"] {
+  margin-top: 25px;
+}
+
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+  .photo{
+    width: 40%;
+  }
+}
