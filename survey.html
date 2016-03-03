@@ -25,65 +25,63 @@
 
     <main role="main">
       <h1 class= "heading">Survey</h1>
-      <div class="card">
-        <div class="flex">
-          <img class="photo" src= "img/concert01.jpg" alt="An image of an Accessible Frog concert">
-          <div class="container">
-            <form class = "survey" role="form">
-              <fieldset>
-                <legend>Tell Us What You Think About Accessible Frog</legend>
-                <p>Who is your Favorite band Member:</p>
-                <input type="radio" id="John" name="res" value="John" tabindex="0"> <label for="John">John</label>
-                <input type="radio" id="Hazzard" name="res" value="Hazzard" > <label for="Hazzard">Hazzard</label>
-                <input type="radio" id="Bob" name="res" value="Bob"> <label for="Bob">Bob</label>
-                <input type="radio" id="Sally" name="res" value="Sally" > <label for="Sally">Sally</label>
+      <form class = "survey" role="form" action="survey.html" method="post">
+        <div class="card">
+          <div class="flex">
+            <img class="photo" src= "img/concert01.jpg" alt="An image of an Accessible Frog concert">
+            <div class="container">
+                 <fieldset>
+                  <legend>Tell Us What You Think About Accessible Frog</legend>
+                  <p>Who is your Favorite band Member:</p>
+                  <input type="radio" id="John" name="res" value="John" tabindex="0"> <label for="John">John</label>
+                  <input type="radio" id="Hazzard" name="res" value="Hazzard" > <label for="Hazzard">Hazzard</label>
+                  <input type="radio" id="Bob" name="res" value="Bob"> <label for="Bob">Bob</label>
+                  <input type="radio" id="Sally" name="res" value="Sally" > <label for="Sally">Sally</label>
 
-                <label for="albums">What is your favorite Album:</label>
-                <select id="albums" name="select" >
-                  <option value="1">Party For An Angel</option>
-                  <option value="2">A Day Of Old</option>
-                  <option value="3">Finding My Shadow</option>
-                  <option value="4">Diamond Fireworks</option>
-                  <option value="5">Enjoy Your Desire</option>
-                  <option value="6">This Is For You</option>
-                  <option value="7">Music Of My Life</option>
-                  <option value="8">Song For Yesterday</option>
-                  <option value="9">Heroic Forever</option>
-                  <option value="10">Midnight Fires</option>
-                  <option value="11">Street Of The Rider</option>
-                </select>
+                  <label for="albums">What is your favorite Album:</label>
+                  <select id="albums" name="select" >
+                    <option value="1">A Day Of Old</option>
+                    <option value="2">Diamond Fireworks</option>
+                    <option value="3">Enjoy Your Desire</option>
+                    <option value="4">Finding My Shadow</option>
+                    <option value="5">Heroic Forever</option>
+                    <option value="6">Midnight Fires</option>
+                    <option value="7">Music Of My Life</option>
+                    <option value="8">Party For An Angel</option>
+                    <option value="9">Song For Yesterday</option>
+                    <option value="10">Street Of The Rider</option>
+                    <option value="11">This Is For You</option>
+                  </select>
 
-                <label for="albums2">What is your favorite album:</label>
-                <textarea id="albums2" ></textarea>
-              </fieldset>
-            </form>
+                  <label for="albums2">What is your favorite album:</label>
+                  <textarea id="albums2" ></textarea>
+                </fieldset>
+            </div>
           </div>
         </div>
-      </div>
-      <h1 class= "heading">Newsletter</h1>
-      <div class="card">
-        <div class="flex">
-          <img class="photo" src= "img/the_band.jpg" alt="An image of Accessible Frog playing live.">
-            <div class="container">
-              <form class="newsletter">
-                <fieldset>
-                  <legend>Sign Up for the Latest News on Accessible Frog</legend>
-                  <div class="newsletter-container">
-                    <label for="name">Name: </label><input id="name" type ="text" name="textfield" >
-                  </div>
-                  <div class="newsletter-container">
-                    <label for="email">email: </label><input id="email" type ="text" name="textfield" >
-                  </div>
-                  <div class="newsletter-container">
-                    <label for="email2">retype email: </label><input id="email2" type ="text" name="textfield" >
-                  </div>
-                  <button type="submit" aria-describedby="hint">Sign Up</button>
-                  <p id="hint">When the sign up button is clicked, you'll let us know about your favorite Accessible Frog band member and album, as well as subscribe via email to our monthly newsletter all about Accessible Frog.</p>
-                </fieldset>
-              </form>
-            </div>
+        <h1 class= "heading">Newsletter</h1>
+        <div class="card">
+          <div class="flex">
+            <img class="photo" src= "img/the_band.jpg" alt="An image of Accessible Frog playing live.">
+              <div class="container">
+                  <fieldset>
+                    <legend>Sign Up for the Latest News on Accessible Frog</legend>
+                    <div class="newsletter-container">
+                      <label for="name">Name: </label><input id="name" type ="text" name="textfield" >
+                    </div>
+                    <div class="newsletter-container">
+                      <label for="email">email: </label><input id="email" type ="text" name="textfield" >
+                    </div>
+                    <div class="newsletter-container">
+                      <label for="email2">retype email: </label><input id="email2" type ="text" name="textfield" >
+                    </div>
+                    <button type="submit" aria-describedby="hint">Sign Up</button>
+                    <p id="hint">When the sign up button is clicked, you'll let us know about your favorite Accessible Frog band member and album, as well as subscribe via email to our monthly newsletter all about Accessible Frog.</p>
+                  </fieldset>
+              </div>
+          </div>
         </div>
-      </div>
+      </form>
     </main>
     
     <footer role="contentinfo">

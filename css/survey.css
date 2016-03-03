@@ -7,7 +7,6 @@
 
 form {
   margin: 0 auto;
-  text-align: left;
   display: inline-block;
 }
 
@@ -23,12 +22,11 @@ label[for="albums2"] {
   margin-bottom: 16px;
 }
 
-.container{
-  text-align: center;
-}
-.newsletter{
-  text-align: right;
-
+input:focus,
+select:focus,
+textarea:focus {
+  outline: #182430 auto 5px;
+  background-color: #ffcd24;
 }
 
 #hint {

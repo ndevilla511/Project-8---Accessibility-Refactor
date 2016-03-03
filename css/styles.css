@@ -60,7 +60,7 @@ a:hover {
 }
 
 .nav a:hover {
-  color: white;
+  color: #ff123c;
 }
 
 header {
@@ -74,7 +74,7 @@ header {
 
 header h1 {
     text-transform: uppercase;
-    color: rgba(27, 25, 30, 0.9);
+    color: rgba(0, 0, 0, 1);
     letter-spacing: 15px;
     margin-top: 74px;
     font-size: 2.9em;
@@ -85,7 +85,7 @@ header span {
     display: block;
     text-transform: uppercase;
     margin-top: 62px;
-    color: #9b0a20;
+    color: #000000;
     font-size: 1.1em;
     letter-spacing: 5px;
 }
@@ -149,7 +149,7 @@ header .name{
 }
 
 .buy:hover {
-    color: white;
+    color: #ff123c;
 }
 
 /* Footer styles */
